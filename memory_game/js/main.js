@@ -4,7 +4,6 @@ console.log("Up and running!");
 
 
 
-//console.log( "User Flipped " + cardTwo);
 
 var cards = [ 
 {
@@ -58,13 +57,39 @@ console.log(cards[2].suit)
 
 checkForMatch();
 
+}
+
+flipCard();
 
 
+var createBoard = function() {
+
+	for (var i = 0; i < cards.length; i++) {
+		var cardsElement = document.createElement('img');
+
+
+	cardElement.setAttribute(cardElement , "images/back.png");
+		
+		cardElement.setAttribute([0]);
+		
+
+		document.addEventListener("click", flipCard);
+
+		document.getElementById('game-board').appendChild(cardElement);
+
+	    
+
+		
 
 
 }
 
-flipCard();
+
+}
+createBoard();
+
+
+
 
 
 
